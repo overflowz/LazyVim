@@ -76,6 +76,7 @@ return {
         lua = { "stylelua" },
         javascript = { "prettierd", "eslint_d" },
         typescript = { "prettierd", "eslint_d" },
+        sql = { "pg_format" },
         toml = { "taplo" },
       },
     },
