@@ -23,6 +23,7 @@ return {
         enabled = false,
       },
       explorer = {
+        enabled = false,
         replace_netrw = true,
       },
       picker = {

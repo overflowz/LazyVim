@@ -19,9 +19,19 @@ return {
       },
       custom_highlights = function(_, palette)
         return {
+          -- snacks picker
+
           SnacksPickerGitStatusUntracked = { fg = palette.green },
           SnacksPickerGitStatusModified = { fg = '#ff8700' },
           SnacksPickerDirectory = { fg = palette.blue },
+
+          -- neotree
+
+          NeoTreeGitUntracked = { fg = palette.green },
+          NeoTreeGitModified = { fg = '#ff8700' },
+          NeoTreeDirectoryIcon = { fg = palette.blue },
+          NeoTreeDirectoryName = { fg = palette.blue },
+          NeoTreeCursorLine = { bg = "#282C34" },
         }
       end
     },
