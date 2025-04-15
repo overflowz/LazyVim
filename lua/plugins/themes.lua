@@ -41,6 +41,12 @@ return {
     lazy = false,
     enabled = true,
     opts = {
+      extra_groups = {
+        "NvimTreeNormal",
+        "NeoTreeNormal",
+        "NeoTreeFloatBorder",
+        "NeoTreeNormalNC",
+      },
       groups = {
         "Normal",
         "NormalNC",
