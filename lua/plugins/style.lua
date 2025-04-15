@@ -53,4 +53,12 @@ return {
       sources = { "filesystem" },
     },
   },
+  {
+    "nvim-lualine/lualine.nvim",
+    opts = function()
+      -- override default lualine conf
+      -- because it does not work well with neo-tree
+      return {}
+    end
+  },
 }
