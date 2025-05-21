@@ -1,27 +1,27 @@
 return {
-  {
-    "saghen/blink.cmp",
-    dependencies = {
-      "moyiz/blink-emoji.nvim",
-    },
-    opts = {
-      sources = {
-        default = {
-          "emoji",
-        },
-        providers = {
-          emoji = {
-            module = "blink-emoji",
-            name = "Emoji",
-            score_offset = 15,
-            opts = {
-              insert = true
-            },
-          },
-        },
-      },
-    },
-  },
+  -- {
+  --   "saghen/blink.cmp",
+  --   dependencies = {
+  --     "moyiz/blink-emoji.nvim",
+  --   },
+  --   opts = {
+  --     sources = {
+  --       default = {
+  --         "emoji",
+  --       },
+  --       providers = {
+  --         emoji = {
+  --           module = "blink-emoji",
+  --           name = "Emoji",
+  --           score_offset = 15,
+  --           opts = {
+  --             insert = true
+  --           },
+  --         },
+  --       },
+  --     },
+  --   },
+  -- },
   {
     'Exafunction/codeium.vim',
     enabled = true,
