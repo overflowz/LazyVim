@@ -50,7 +50,7 @@ return {
     enabled = true,
     opts = {
       close_if_last_window = true,
-      sources = { "filesystem", "git_status" },
+      sources = { "filesystem", "buffers", "git_status" },
     },
   },
   {
