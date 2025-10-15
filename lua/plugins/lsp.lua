@@ -79,6 +79,8 @@ return {
         typescript = { "prettierd", "eslint_d" },
         sql = { "pg_format" },
         toml = { "taplo" },
+        terraform = { "tofu_fmt" },
+        ["terraform-vars"] = { "tofu_fmt" },
       },
     },
   },
@@ -89,6 +91,9 @@ return {
       linters_by_ft = {
         javascript = { "eslint_d" },
         typescript = { "eslint_d" },
+        -- terraform = { "tflint" },
+        -- terraform = { "tofu" },
+        -- ["terraform-vars"] = { "tofu" },
       },
     },
   },

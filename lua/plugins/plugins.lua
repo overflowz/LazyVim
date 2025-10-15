@@ -20,7 +20,7 @@ return {
     },
   },
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     keys = {
       { "<leader>cm", false }
     },
@@ -31,6 +31,7 @@ return {
         "vtsls",
         "taplo",
         "stylua",
+        "tofu-ls",
       }
     },
   },
