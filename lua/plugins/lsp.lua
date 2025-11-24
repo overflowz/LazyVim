@@ -6,8 +6,8 @@ return {
       opts.servers = {
         ["*"] = {
           keys = {
-
             -- disable default keymaps
+
             { "<leader>ca", false },
             { "<leader>cA", false },
             { "<leader>cc", false },
@@ -17,6 +17,7 @@ return {
             { "<leader>cl", false },
 
             -- vtsls
+
             { "<leader>cD", false },
             { "<leader>cM", false },
             { "<leader>co", false },
