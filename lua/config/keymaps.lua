@@ -17,6 +17,8 @@ map({ "n", "v" }, "<leader>/", "<cmd>normal gcc<cr>", { desc = "Toggle comment" 
 -- buffer
 
 map("n", "<leader>c", function() Snacks.bufdelete() end, { desc = "Delete Buffer" })
+map("n", "<C-l>", "<cmd>BufferLineMoveNext<CR>", { desc = "Buffer Line Move Next" })
+map("n", "<C-h>", "<cmd>BufferLineMovePrev<CR>", { desc = "Buffer Line Move Prev" })
 
 -- lsp
 
